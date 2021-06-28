@@ -1,5 +1,12 @@
-#include <iostream>
+#include "Engine.h"
 
 int main() {
-    std::cout << "Thomas Was Late!" << std::endl;
+    // Declare an instance of Engine
+    Engine engine;
+
+    // Start the engine
+    engine.run();
+
+    // Quit in the usual way when the engine is stopped
+    return 0;
 }
